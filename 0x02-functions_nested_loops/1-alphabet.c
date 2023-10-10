@@ -1,18 +1,16 @@
 #include "main.h"
 /**
- * main - To print alphabet with new line
  * print_alphabet - To print complete alphabet
  * Return: (0)
  */
 
 	void print_alphabet(void)
 {
-	char x;
+	char a;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (a = 'a'; a <= 'z'; a++)
 	{
-	_putchar('x');
+	_putchar(a);
 	}
-
 	_putchar('\n');
 }
