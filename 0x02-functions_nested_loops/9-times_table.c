@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * times_table - To print times table
- * Return: 0.
+ * Return: empty
  */
 void times_table(void)
-
 {
 	int a, y, z, u, b;
 
@@ -27,6 +26,7 @@ void times_table(void)
 	if (y != 0)
 	{
 	_putchar(44);
+	_putchar(32);
 	_putchar(32);
 	}
 	_putchar(z + '0');

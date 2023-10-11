@@ -4,7 +4,7 @@
 /**
  * print_to_98 - To print number to 98
  * @a: number to initiate
- * Return: value
+ * Return: 0.
  */
 void print_to_98(int a)
 {
